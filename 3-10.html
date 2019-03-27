@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>3-10</title>
+	<style type="text/css">
+		.class1 {
+			background-color: purple;
+			padding-right:30px;
+			padding-left:30px;
+			opacity: 0.7;
+		}
+
+		.class2 {
+			background-color: purple;
+			padding-right:30px;
+			padding-left:30px;
+			opacity: 0.4;
+		}
+
+		.class3 {
+			background-color: purple;
+			padding-right:30px;
+			padding-left:30px;
+			opacity: 0.2;
+		}
+
+		.class4{
+			padding-right:30px;
+			padding-left:30px;
+		}
+
+		.imgbox1{
+			width :200px;
+			height: 200px;
+			background-image: url(sea1.jpg);
+			background-size: 100% 100%;
+		}
+
+		.imgbox2{
+			width :200px;
+			height: 200px;
+			background-image: url(flower1.jpg);
+			background-size: 100% 100%;
+		}
+		
+		.repeat1{
+			background-size: 90% 70%;
+			background-repeat: no-repeat;
+			background-position: center left;
+		}
+		
+		.repeat2{
+			background-size: 20% 20%;
+		}
+
+		.right-padding{
+			padding-right :10px; 
+		}
+
+		#box-id {
+			margin-right: 10px;
+			padding-left : 10px;
+			padding-top : 50px;
+			padding-bottom : 50px;
+			font-family: "돋움";
+			color:white;
+			border : 2px solid gray ;
+		}
+
+		div {
+			margin-top:75px;
+			margin-bottom: 120px;
+			padding-left: 10px;
+		}
+		
+		
+	</style>
+</head>
+
+<body>
+	<h4>
+		<div>
+			<span id="box-id" class="imgbox1">
+				<span class = "class1">HTML</span>
+			</span>
+			<span id="box-id" class="imgbox1">
+				<span class = "class2">HTML</span>
+			</span>
+			<span id="box-id" class="imgbox1 right-padding">
+				<span class = "class3">HTML</span>
+			</span>
+		</div>
+		<div>
+			<span id="box-id" class="imgbox2">
+				<span class = "class4">HTML</span>
+			</span>
+			<span id="box-id" class="imgbox2 repeat1">
+				<span class = "class4">HTML</span>
+			</span>
+			<span id="box-id" class="imgbox2 right-padding repeat2">
+				<span class = "class4">HTML</span>
+			</span>
+		</div>
+	</h4>
+</body>
+
+</html>
